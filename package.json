@@ -1,0 +1,39 @@
+{
+  "name": "react-less-watcher",
+  "version": "1.0.0",
+  "description": "A tool for help create-react-app work with less",
+  "main": "index.js",
+  "scripts": {
+    "test": "./index.js -d ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryouaki/react-less-watcher.git"
+  },
+  "keywords": [
+    "less",
+    "react",
+    "css",
+    "create-react-app",
+    "watch"
+  ],
+  "author": "ryouaki (46517115@qq.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryouaki/react-less-watcher/issues"
+  },
+  "homepage": "https://github.com/ryouaki/react-less-watcher#readme",
+  "files": [
+    "index.js",
+    "README.md",
+    "package.json",
+    "/test"
+  ],
+  "bin": {
+    "react-less-warcher": "./index.js"
+  },
+  "dependencies": {
+    "chokidar": "^2.0.2",
+    "less": "^3.0.1"
+  }
+}
