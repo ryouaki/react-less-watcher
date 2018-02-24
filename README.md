@@ -33,3 +33,6 @@ When you work with it, it will create a css file at the same directory of less, 
     "start": "react-scripts start&npm run watch-less"
   }
 ```
+
+# License
+MIT
