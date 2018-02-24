@@ -1,10 +1,10 @@
 {
   "name": "react-less-watcher",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A tool for help create-react-app work with less",
   "main": "index.js",
   "scripts": {
-    "test": "./index.js -d ./src"
+    "test": "./index.js -d ./test"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
   "files": [
     "index.js",
     "README.md",
+    "LICENSE",
     "/test"
   ],
   "bin": {
