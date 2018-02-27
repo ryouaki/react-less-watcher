@@ -17,7 +17,7 @@ When you work with it, it will create a css file at the same directory of less, 
   ...
 ```
 
-**Note** : It will takes some time to compile the less file to css file, so you'd better to create a less file first, and then import the css file or will get error.
+**Note** : It will takes some time to compile the less file to css file, so you'd better to create a less file first, and then import the css file or you will get a error.
 
 # Usage
 
@@ -33,6 +33,10 @@ When you work with it, it will create a css file at the same directory of less, 
     "start": "react-scripts start&npm run watch-less"
   }
 ```
+
+# Changed
+2018-02-27 bug fix for does not create new css file when add a empty less file
+2018-02-24 1.0.0 Released
 
 # License
 MIT

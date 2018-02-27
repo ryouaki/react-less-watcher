@@ -24,7 +24,7 @@ watcher.on('error', function(error) {
   console.error(error);
 });
 
-watcher.on('change', function(file) {
+function lessHandleFunc(file) {
   if (file && !fs.statSync(file).isDirectory()) {
     let extname = path.extname(file);
     if (extname !== '.less') {
@@ -51,7 +51,11 @@ watcher.on('change', function(file) {
       });
     }
   }
-});
+}
+
+watcher.on('add', lessHandleFunc)
+
+watcher.on('change', lessHandleFunc);
 
 watcher.on('unlink', function(file) {
   if (file) {
