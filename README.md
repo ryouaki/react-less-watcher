@@ -35,8 +35,8 @@ When you work with it, it will create a css file at the same directory of less, 
 ```
 
 # Changed
-2018-02-27 bug fix for does not create new css file when add a empty less file
-2018-02-24 1.0.0 Released
+- 2018-02-27 bug fix for does not create new css file when add a empty less file
+- 2018-02-24 1.0.0 Released
 
 # License
 MIT
