@@ -1,3 +1,6 @@
+
+[![npm downloads](https://img.shields.io/npm/dm/react-less-watcher.svg?style=flat-square)](http://npm-stat.com/charts.html?package=react-less-watcher)
+
 # react-less-watcher
 A tool for help create-react-app work with less
 
